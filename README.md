@@ -1,27 +1,42 @@
 # AI-Driven Livestock Health Monitoring System
 
-This project explores the application of AI and machine learning techniques for early detection and prevention of livestock diseases. It focuses on integrating sensor data and computer vision to monitor animal health conditions in real-time.
+This project explores the application of artificial intelligence and machine learning to detect livestock diseases early through sensor data and computer vision. The goal is to improve animal health management by enabling timely intervention and reducing disease-related losses in agriculture.
 
-## Objectives
-- Detect early symptoms of common livestock diseases using AI models
-- Reduce disease spread and treatment costs through early intervention
-- Improve data collection and monitoring in rural farming environments
+## 🧠 Problem Statement
+Early detection of livestock diseases remains a major challenge in agriculture, especially in resource-constrained settings. Traditional monitoring methods are labor-intensive and often reactive. This system aims to automate disease detection using real-time data from biosensors and camera feeds.
 
-## Approach
-- Collect data from sensors (e.g., temperature, heart rate) and camera feeds
-- Train ML models for anomaly detection and symptom classification
-- Use cloud dashboards or mobile alerts for real-time monitoring
+## 🚀 Objectives
+- Monitor livestock health through wearable sensors and cameras
+- Detect early symptoms of disease using ML algorithms
+- Alert farmers via a dashboard or mobile notification
+- Reduce veterinary costs and improve productivity
 
-## Tools & Technologies
-- Python, TensorFlow/PyTorch
-- Jupyter Notebooks
-- OpenCV for image processing
-- Pandas/Numpy for data handling
+## 🛠️ Technical Approach
+- **Data Sources:** Vital signs (temperature, heart rate), behavioral video data
+- **Preprocessing:** Data cleaning, normalization, outlier detection
+- **Modeling:** Anomaly detection and classification (ML & CV models)
+- **Tools:** Python, Pandas, OpenCV, Scikit-learn/TensorFlow
 
-## Status
-This is a concept-stage project, with current focus on:
-- Data sourcing strategies
-- Building proof-of-concept models
-- Exploring low-cost deployment options
+## 🧪 Current Progress
+- Drafted system architecture and workflows
+- Identified relevant ML techniques for disease detection
+- Exploring public datasets and prototype data collection strategies
 
-This project was originally developed as part of an AI research concept to promote data-driven livestock health solutions in Sub-Saharan Africa.
+## 📊 Future Steps
+- Simulate data for training models
+- Build baseline classification model
+- Design a simple web dashboard for alerts
+
+## 📂 Project Structure
+- `/slides` – Concept presentation (.pptx/.pdf)
+- `/notebooks` – Jupyter notebooks (planned)
+- `/data` – Placeholder for datasets
+- `/docs` – Future technical documentation
+
+This project was originally developed as a concept note and presentation to explore AI-based solutions for agricultural health monitoring in Sub-Saharan Africa. It continues to evolve as a learning and applied research project.
+
+## 👨‍💻 Author
+Kevin Wahome Mwangi – [GitHub Profile](https://github.com/wahomekevinmwangi)
+
+
+*Note: This is a concept-stage research project aimed at learning and demonstrating AI applications in real-world domains.*
