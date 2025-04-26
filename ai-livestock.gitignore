@@ -1,0 +1,29 @@
+# Jupyter and Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.env
+
+# Datasets and models
+*.csv
+*.xlsx
+*.sav
+*.joblib
+*.pkl
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log

@@ -1,42 +1,53 @@
-# AI-Driven Livestock Health Monitoring System
+# 🐄 AI-Driven Livestock Health Monitoring
 
-This project explores the application of artificial intelligence and machine learning to detect livestock diseases early through sensor data and computer vision. The goal is to improve animal health management by enabling timely intervention and reducing disease-related losses in agriculture.
+An intelligent system for early disease detection in livestock using machine learning and key physiological parameters.
 
-## 🧠 Problem Statement
-Early detection of livestock diseases remains a major challenge in agriculture, especially in resource-constrained settings. Traditional monitoring methods are labor-intensive and often reactive. This system aims to automate disease detection using real-time data from biosensors and camera feeds.
+---
 
-## 🚀 Objectives
-- Monitor livestock health through wearable sensors and cameras
-- Detect early symptoms of disease using ML algorithms
-- Alert farmers via a dashboard or mobile notification
-- Reduce veterinary costs and improve productivity
+## 📌 Project Goal
 
-## 🛠️ Technical Approach
-- **Data Sources:** Vital signs (temperature, heart rate), behavioral video data
-- **Preprocessing:** Data cleaning, normalization, outlier detection
-- **Modeling:** Anomaly detection and classification (ML & CV models)
-- **Tools:** Python, Pandas, OpenCV, Scikit-learn/TensorFlow
+To build a machine learning pipeline capable of detecting early signs of livestock illness using data such as:
 
-## 🧪 Current Progress
-- Drafted system architecture and workflows
-- Identified relevant ML techniques for disease detection
-- Exploring public datasets and prototype data collection strategies
+- Body temperature
+- Heart rate
+- Respiratory rate
 
-## 📊 Future Steps
-- Simulate data for training models
-- Build baseline classification model
-- Design a simple web dashboard for alerts
+---
 
-## 📂 Project Structure
-- `/slides` – Concept presentation (.pptx/.pdf)
-- `/notebooks` – Jupyter notebooks (planned)
-- `/data` – Placeholder for datasets
-- `/docs` – Future technical documentation
+## 🚀 Features
 
-This project was originally developed as a concept note and presentation to explore AI-based solutions for agricultural health monitoring in Sub-Saharan Africa. It continues to evolve as a learning and applied research project.
+- Data preprocessing
+- SMOTE for imbalance handling
+- Model training with Random Forest & GridSearchCV
+- Performance evaluation (precision, recall, F1-score)
+- Confusion matrix visualization
 
-## 👨‍💻 Author
-Kevin Wahome Mwangi – [GitHub Profile](https://github.com/wahomekevinmwangi)
+---
 
+## 🧠 Future Enhancements
 
-*Note: This is a concept-stage research project aimed at learning and demonstrating AI applications in real-world domains.*
+- Integration with IoT sensor streams
+- Image-based detection using deep learning
+- Specific disease classification
+- GPS-based livestock tracking
+
+---
+
+## ⚠️ Note
+
+This public repository **does not contain** real sensor data or confidential academic material. All sensitive and proprietary components are managed privately.
+
+---
+
+## 📄 License
+
+MIT License — feel free to fork and contribute, just link back here.
+
+---
+
+## 👨‍🔬 Author
+
+**Kevin Wahome Mwangi**  
+> Passionate about ML, AI tools & community-driven learning.  
+[GitHub](https://github.com/wahomekevinmwangi)
+
